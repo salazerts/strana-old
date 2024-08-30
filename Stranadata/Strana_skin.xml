@@ -1,0 +1,786 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<krpano version="1.19-pr16">
+
+    
+  <!-- Spot Style - 1 -->
+
+
+  <style name="Icon1"
+         url="%FIRSTXML%/spots/hotspot_neutral_big_sequence_user_defaultpoint34.png"
+         visible="false"
+         frame="0"
+         lastframe="17"
+         framewidth="90"
+         frameheight="90"
+         stopspotsequence="false"
+         crop="0|0|90|90"
+         edge="center"
+         rotate="270"
+         onloaded="startspotanimation(0.1);showPermanentTooltip(touch);"
+         onhover="onhoverIcon1"
+         onout="onoutIcon1"
+
+
+         />
+  <action name="onhoverIcon1">
+    showtooltip('hotspot');
+  </action>
+  <action name="onoutIcon1">
+    hideTooltip();
+
+
+
+  </action>
+
+
+
+    
+  <!-- Spot Style - холл 2 этажа -->
+
+
+  <style name="Iconхолл2этажа"
+         url="%FIRSTXML%/spots/xol2_user_defaultpoint44.png"
+         visible="false"
+         edge="bottom" ox="0" oy="0"
+         onloaded="showPermanentTooltip(touch, bottom);"
+         onhover="onhoverIconхолл2этажа"
+         onover="onoverIconхолл2этажа"
+         onout="onoutIconхолл2этажа"
+
+
+         />
+  <action name="onhoverIconхолл2этажа">
+    showtooltip('hotspot');
+  </action>
+  <action name="onoverIconхолл2этажа">
+tween(scale, 1.2);
+
+
+  </action>
+  <action name="onoutIconхолл2этажа">
+    hideTooltip();
+    tween(scale, 1);
+
+
+  </action>
+
+
+
+    
+  <!-- Spot Style - квартира -->
+
+
+  <style name="Iconквартира"
+         url="%FIRSTXML%/spots/kvartira_user_defaultpoint45.png"
+         visible="false"
+         edge="bottom" ox="0" oy="0"
+         onloaded="showPermanentTooltip(touch, bottom);"
+         onhover="onhoverIconквартира"
+         onover="onoverIconквартира"
+         onout="onoutIconквартира"
+
+
+         />
+  <action name="onhoverIconквартира">
+    showtooltip('hotspot');
+  </action>
+  <action name="onoverIconквартира">
+tween(scale, 1.2);
+
+
+  </action>
+  <action name="onoutIconквартира">
+    hideTooltip();
+    tween(scale, 1);
+
+
+  </action>
+
+
+
+    
+  <!-- Spot Style - par1 -->
+
+
+  <style name="Iconpar1"
+         url="%FIRSTXML%/spots/dvorpar1_user_defaultpoint47.png"
+         visible="false"
+         edge="bottom" ox="0" oy="0"
+         onloaded="showPermanentTooltip(touch, bottom);"
+         onhover="onhoverIconpar1"
+         onover="onoverIconpar1"
+         onout="onoutIconpar1"
+
+
+         />
+  <action name="onhoverIconpar1">
+    showtooltip('hotspot');
+  </action>
+  <action name="onoverIconpar1">
+tween(scale, 1.2);
+
+
+  </action>
+  <action name="onoutIconpar1">
+    hideTooltip();
+    tween(scale, 1);
+
+
+  </action>
+
+
+
+    
+  <!-- Spot Style - par2 -->
+
+
+  <style name="Iconpar2"
+         url="%FIRSTXML%/spots/dvorpar2_user_defaultpoint48.png"
+         visible="false"
+         edge="bottom" ox="0" oy="0"
+         onloaded="showPermanentTooltip(touch, bottom);"
+         onhover="onhoverIconpar2"
+         onover="onoverIconpar2"
+         onout="onoutIconpar2"
+
+
+         />
+  <action name="onhoverIconpar2">
+    showtooltip('hotspot');
+  </action>
+  <action name="onoverIconpar2">
+tween(scale, 1.2);
+
+
+  </action>
+  <action name="onoutIconpar2">
+    hideTooltip();
+    tween(scale, 1);
+
+
+  </action>
+
+
+
+    
+  <!-- Spot Style - par3 -->
+
+
+  <style name="Iconpar3"
+         url="%FIRSTXML%/spots/dvorpar3_user_defaultpoint49.png"
+         visible="false"
+         edge="bottom" ox="0" oy="0"
+         onloaded="showPermanentTooltip(touch, bottom);"
+         onhover="onhoverIconpar3"
+         onover="onoverIconpar3"
+         onout="onoutIconpar3"
+
+
+         />
+  <action name="onhoverIconpar3">
+    showtooltip('hotspot');
+  </action>
+  <action name="onoverIconpar3">
+tween(scale, 1.2);
+
+
+  </action>
+  <action name="onoutIconpar3">
+    hideTooltip();
+    tween(scale, 1);
+
+
+  </action>
+
+
+
+    
+  <!-- Spot Style - par4 -->
+
+
+  <style name="Iconpar4"
+         url="%FIRSTXML%/spots/dvorpar4_user_defaultpoint50.png"
+         visible="false"
+         edge="bottom" ox="0" oy="0"
+         onloaded="showPermanentTooltip(touch, bottom);"
+         onhover="onhoverIconpar4"
+         onover="onoverIconpar4"
+         onout="onoutIconpar4"
+
+
+         />
+  <action name="onhoverIconpar4">
+    showtooltip('hotspot');
+  </action>
+  <action name="onoverIconpar4">
+tween(scale, 1.2);
+
+
+  </action>
+  <action name="onoutIconpar4">
+    hideTooltip();
+    tween(scale, 1);
+
+
+  </action>
+
+
+
+    
+  <!-- Spot Style - холл 1 этажа -->
+
+
+  <style name="Iconхолл1этажа"
+         url="%FIRSTXML%/spots/xol1_user_defaultpoint51.png"
+         visible="false"
+         edge="bottom" ox="0" oy="0"
+         onloaded="showPermanentTooltip(touch, bottom);"
+         onhover="onhoverIconхолл1этажа"
+         onover="onoverIconхолл1этажа"
+         onout="onoutIconхолл1этажа"
+
+
+         />
+  <action name="onhoverIconхолл1этажа">
+    showtooltip('hotspot');
+  </action>
+  <action name="onoverIconхолл1этажа">
+tween(scale, 1.2);
+
+
+  </action>
+  <action name="onoutIconхолл1этажа">
+    hideTooltip();
+    tween(scale, 1);
+
+
+  </action>
+
+
+
+<!-- ********** -->
+<!-- Double Click -->
+<!-- id : doubleclick -->
+<!-- ********** -->
+  <events name="doubleclick_events" keep="true" ondoubleclick="doubleclick_ondoubleclick"/>
+  <action name="doubleclick_ondoubleclick">switchFullscreen();
+
+
+  </action>
+<!-- ********** -->
+<!-- Force Landscape on Mobile -->
+<!-- id : ForceLandscapeMobilePlugin -->
+<!-- ********** -->
+
+	<events name="mobileorientation_events" devices="mobile" keep="true" onresize="mobileorientation_portrait_mode_check();"/>
+
+	<action name="mobileorientation_portrait_mode_check" device="mobile">
+		div(aspect, stagewidth, stageheight);
+		if(aspect != lastaspect OR '%1' == 'true',
+			copy(lastaspect, aspect);
+			if(stagewidth GT stageheight,
+				tween(layer[mobileorientation_rotate_device_required].alpha, 0.0, 0.0);
+			,
+				tween(layer[mobileorientation_rotate_device_required].alpha, 1.0);
+				delayedcall(3.0, tween(layer[mobileorientation_rotate_device_required].alpha, 0.0, 1.0););
+			);
+		);
+	</action>	
+
+	<layer name="mobileorientation_rotate_device_required" keep="true" devices="mobile" 
+		url="%FIRSTXML%/graphics/rotate_device.png" width="80%" height="prop"
+		align="center" edge="center"
+		autoalpha="true" alpha="0.0"
+		enabled="false"
+		/>	
+<!-- ********** -->
+<!-- Button3 -->
+<!-- id : button2 -->
+<!-- ********** -->
+
+  <layer name="button2"
+         keep="true"
+         url="%FIRSTXML%/graphics/button2/par2.png"
+         align="topright"
+         x="10"
+         y="115"
+         zorder="3"
+         visible="false"
+         onclick="button2OnClick"
+         onout=""
+         onover="set(layer[button2over].visible, true);set(layer[button2].visible, false);"
+         />
+
+
+<layer name="button2over"
+         keep="true"
+         url="%FIRSTXML%/graphics/button2/par2_copy.png"
+         align="topright"
+         x="10"
+         y="115"
+         zorder="3"
+         visible="false"
+         onclick="button2OnClick"
+         onout="set(layer[button2].visible, true);set(layer[button2over].visible, false);"
+         onover=""
+         />
+
+
+  <action name="button2OnClick">
+            mainloadscene(get(panoramagroup[panogroup10493].mainscene));lookat(get(panoview.h), get(panoview.v), get(panoview.fov));
+
+
+  </action>
+
+  <events name="button2events"
+    onTourStart="showbutton2();"
+    hidetourcontrols="hidebutton2();"
+    showtourcontrols="showbutton2();"
+    keep="true" />
+  <action name="hidebutton2">set(layer[button2].visible, false);</action>
+  <action name="showbutton2">if(tour_displaycontrols,set(layer[button2].visible, true);set(layer[button2over].visible, false);,hidebutton2(););</action>
+
+
+<!-- ********** -->
+<!-- Button2 -->
+<!-- id : button1 -->
+<!-- ********** -->
+
+  <layer name="button1"
+         keep="true"
+         url="%FIRSTXML%/graphics/button1/par1.png"
+         align="topright"
+         x="10"
+         y="70"
+         zorder="4"
+         visible="false"
+         onclick="button1OnClick"
+         onout=""
+         onover="set(layer[button1over].visible, true);set(layer[button1].visible, false);"
+         />
+
+
+<layer name="button1over"
+         keep="true"
+         url="%FIRSTXML%/graphics/button1/par1_copy.png"
+         align="topright"
+         x="10"
+         y="70"
+         zorder="4"
+         visible="false"
+         onclick="button1OnClick"
+         onout="set(layer[button1].visible, true);set(layer[button1over].visible, false);"
+         onover=""
+         />
+
+
+  <action name="button1OnClick">
+            mainloadscene(get(panoramagroup[panogroup10480].mainscene));lookat(get(panoview.h), get(panoview.v), get(panoview.fov));
+
+
+  </action>
+
+  <events name="button1events"
+    onTourStart="showbutton1();"
+    hidetourcontrols="hidebutton1();"
+    showtourcontrols="showbutton1();"
+    keep="true" />
+  <action name="hidebutton1">set(layer[button1].visible, false);</action>
+  <action name="showbutton1">if(tour_displaycontrols,set(layer[button1].visible, true);set(layer[button1over].visible, false);,hidebutton1(););</action>
+
+
+<!-- ********** -->
+<!-- Button1 -->
+<!-- id : button -->
+<!-- ********** -->
+
+  <layer name="button"
+         keep="true"
+         url="%FIRSTXML%/graphics/button/dvor.png"
+         align="topright"
+         x="10"
+         y="25"
+         zorder="5"
+         visible="false"
+         onclick="buttonOnClick"
+         onout=""
+         onover="set(layer[buttonover].visible, true);set(layer[button].visible, false);"
+         />
+
+
+<layer name="buttonover"
+         keep="true"
+         url="%FIRSTXML%/graphics/button/dvor_copy.png"
+         align="topright"
+         x="10"
+         y="25"
+         zorder="5"
+         visible="false"
+         onclick="buttonOnClick"
+         onout="set(layer[button].visible, true);set(layer[buttonover].visible, false);"
+         onover=""
+         />
+
+
+  <action name="buttonOnClick">
+          mainloadscene(pano10389);lookat(get(panoview.h), get(panoview.v), get(panoview.fov));
+
+
+  </action>
+
+  <events name="buttonevents"
+    onTourStart="showbutton();"
+    hidetourcontrols="hidebutton();"
+    showtourcontrols="showbutton();"
+    keep="true" />
+  <action name="hidebutton">set(layer[button].visible, false);</action>
+  <action name="showbutton">if(tour_displaycontrols,set(layer[button].visible, true);set(layer[buttonover].visible, false);,hidebutton(););</action>
+
+
+<!-- ********** -->
+<!-- Button4 -->
+<!-- id : button3 -->
+<!-- ********** -->
+
+  <layer name="button3"
+         keep="true"
+         url="%FIRSTXML%/graphics/button3/par3.png"
+         align="topright"
+         x="10"
+         y="160"
+         zorder="6"
+         visible="false"
+         onclick="button3OnClick"
+         onout=""
+         onover="set(layer[button3over].visible, true);set(layer[button3].visible, false);"
+         />
+
+
+<layer name="button3over"
+         keep="true"
+         url="%FIRSTXML%/graphics/button3/par3_copy.png"
+         align="topright"
+         x="10"
+         y="160"
+         zorder="6"
+         visible="false"
+         onclick="button3OnClick"
+         onout="set(layer[button3].visible, true);set(layer[button3over].visible, false);"
+         onover=""
+         />
+
+
+  <action name="button3OnClick">
+            mainloadscene(get(panoramagroup[panogroup10676].mainscene));lookat(get(panoview.h), get(panoview.v), get(panoview.fov));
+
+
+  </action>
+
+  <events name="button3events"
+    onTourStart="showbutton3();"
+    hidetourcontrols="hidebutton3();"
+    showtourcontrols="showbutton3();"
+    keep="true" />
+  <action name="hidebutton3">set(layer[button3].visible, false);</action>
+  <action name="showbutton3">if(tour_displaycontrols,set(layer[button3].visible, true);set(layer[button3over].visible, false);,hidebutton3(););</action>
+
+
+<!-- ********** -->
+<!-- Button5 -->
+<!-- id : button4 -->
+<!-- ********** -->
+
+  <layer name="button4"
+         keep="true"
+         url="%FIRSTXML%/graphics/button4/par4.png"
+         align="topright"
+         x="10"
+         y="205"
+         zorder="7"
+         visible="false"
+         onclick="button4OnClick"
+         onout=""
+         onover="set(layer[button4over].visible, true);set(layer[button4].visible, false);"
+         />
+
+
+<layer name="button4over"
+         keep="true"
+         url="%FIRSTXML%/graphics/button4/par4_copy.png"
+         align="topright"
+         x="10"
+         y="205"
+         zorder="7"
+         visible="false"
+         onclick="button4OnClick"
+         onout="set(layer[button4].visible, true);set(layer[button4over].visible, false);"
+         onover=""
+         />
+
+
+  <action name="button4OnClick">
+            mainloadscene(get(panoramagroup[panogroup10506].mainscene));lookat(get(panoview.h), get(panoview.v), get(panoview.fov));
+
+
+  </action>
+
+  <events name="button4events"
+    onTourStart="showbutton4();"
+    hidetourcontrols="hidebutton4();"
+    showtourcontrols="showbutton4();"
+    keep="true" />
+  <action name="hidebutton4">set(layer[button4].visible, false);</action>
+  <action name="showbutton4">if(tour_displaycontrols,set(layer[button4].visible, true);set(layer[button4over].visible, false);,hidebutton4(););</action>
+
+
+<!-- ********** -->
+<!-- Button - Scene specific5 -->
+<!-- id : buttonForASinglePano -->
+<!-- ********** -->
+
+  <layer name="buttonForASinglePano"
+         keep="true"
+         url="%FIRSTXML%/graphics/buttonforasinglepano/par4_copy.png"
+         align="topright"
+         x="10"
+         y="205"
+         zorder="8"
+         visible="false"
+         handcursor="false"
+         enabled="false"
+         />
+
+
+
+
+  <events name="buttonForASinglePanoevents"
+    onTourStart="showbuttonForASinglePano();"
+    hidetourcontrols="hidebuttonForASinglePano();"
+    showtourcontrols="showbuttonForASinglePano();"
+
+    onPanoStart="showbuttonForASinglePano();"
+
+    keep="true" />
+  <action name="hidebuttonForASinglePano">set(layer[buttonForASinglePano].visible, false);</action>
+  <action name="showbuttonForASinglePano">
+    set(display_buttonForASinglePano, false);
+    if(tour_displaycontrols,
+
+    set(currentgroup_buttonForASinglePano, get(scene[get(xml.scene)].group));
+    if (currentgroup_buttonForASinglePano == panogroup10506, set(display_buttonForASinglePano, true); );
+    set(currentgroup_buttonForASinglePano, get(scene[get(xml.scene)].group));
+    if (currentgroup_buttonForASinglePano == panogroup10595, set(display_buttonForASinglePano, true); );
+
+    );
+    if (display_buttonForASinglePano,
+      set(layer[buttonForASinglePano].visible, true);
+    ,
+      hidebuttonForASinglePano();
+    );
+  </action>
+
+
+
+<!-- ********** -->
+<!-- Button - Scene specific1 -->
+<!-- id : buttonForASinglePano1 -->
+<!-- ********** -->
+
+  <layer name="buttonForASinglePano1"
+         keep="true"
+         url="%FIRSTXML%/graphics/buttonforasinglepano1/dvor_copy.png"
+         align="topright"
+         x="10"
+         y="25"
+         zorder="9"
+         visible="false"
+         handcursor="false"
+         enabled="false"
+         />
+
+
+
+
+  <events name="buttonForASinglePano1events"
+    onTourStart="showbuttonForASinglePano1();"
+    hidetourcontrols="hidebuttonForASinglePano1();"
+    showtourcontrols="showbuttonForASinglePano1();"
+
+    onPanoStart="showbuttonForASinglePano1();"
+
+    keep="true" />
+  <action name="hidebuttonForASinglePano1">set(layer[buttonForASinglePano1].visible, false);</action>
+  <action name="showbuttonForASinglePano1">
+    set(display_buttonForASinglePano1, false);
+    if(tour_displaycontrols,
+
+    set(currentgroup_buttonForASinglePano1, get(scene[get(xml.scene)].group));
+    if (currentgroup_buttonForASinglePano1 == panogroup10392, set(display_buttonForASinglePano1, true); );
+
+    );
+    if (display_buttonForASinglePano1,
+      set(layer[buttonForASinglePano1].visible, true);
+    ,
+      hidebuttonForASinglePano1();
+    );
+  </action>
+
+
+
+<!-- ********** -->
+<!-- Button - Scene specific4 -->
+<!-- id : buttonForASinglePano2 -->
+<!-- ********** -->
+
+  <layer name="buttonForASinglePano2"
+         keep="true"
+         url="%FIRSTXML%/graphics/buttonforasinglepano2/par3_copy.png"
+         align="topright"
+         x="10"
+         y="160"
+         zorder="10"
+         visible="false"
+         handcursor="false"
+         enabled="false"
+         />
+
+
+
+
+  <events name="buttonForASinglePano2events"
+    onTourStart="showbuttonForASinglePano2();"
+    hidetourcontrols="hidebuttonForASinglePano2();"
+    showtourcontrols="showbuttonForASinglePano2();"
+
+    onPanoStart="showbuttonForASinglePano2();"
+
+    keep="true" />
+  <action name="hidebuttonForASinglePano2">set(layer[buttonForASinglePano2].visible, false);</action>
+  <action name="showbuttonForASinglePano2">
+    set(display_buttonForASinglePano2, false);
+    if(tour_displaycontrols,
+
+    set(currentgroup_buttonForASinglePano2, get(scene[get(xml.scene)].group));
+    if (currentgroup_buttonForASinglePano2 == panogroup10676, set(display_buttonForASinglePano2, true); );
+    set(currentgroup_buttonForASinglePano2, get(scene[get(xml.scene)].group));
+    if (currentgroup_buttonForASinglePano2 == panogroup10644, set(display_buttonForASinglePano2, true); );
+
+    );
+    if (display_buttonForASinglePano2,
+      set(layer[buttonForASinglePano2].visible, true);
+    ,
+      hidebuttonForASinglePano2();
+    );
+  </action>
+
+
+
+<!-- ********** -->
+<!-- Button - Scene specific3 -->
+<!-- id : buttonForASinglePano3 -->
+<!-- ********** -->
+
+  <layer name="buttonForASinglePano3"
+         keep="true"
+         url="%FIRSTXML%/graphics/buttonforasinglepano3/par2_copy.png"
+         align="topright"
+         x="10"
+         y="115"
+         zorder="11"
+         visible="false"
+         handcursor="false"
+         enabled="false"
+         />
+
+
+
+
+  <events name="buttonForASinglePano3events"
+    onTourStart="showbuttonForASinglePano3();"
+    hidetourcontrols="hidebuttonForASinglePano3();"
+    showtourcontrols="showbuttonForASinglePano3();"
+
+    onPanoStart="showbuttonForASinglePano3();"
+
+    keep="true" />
+  <action name="hidebuttonForASinglePano3">set(layer[buttonForASinglePano3].visible, false);</action>
+  <action name="showbuttonForASinglePano3">
+    set(display_buttonForASinglePano3, false);
+    if(tour_displaycontrols,
+
+    set(currentgroup_buttonForASinglePano3, get(scene[get(xml.scene)].group));
+    if (currentgroup_buttonForASinglePano3 == panogroup10493, set(display_buttonForASinglePano3, true); );
+    set(currentgroup_buttonForASinglePano3, get(scene[get(xml.scene)].group));
+    if (currentgroup_buttonForASinglePano3 == panogroup10563, set(display_buttonForASinglePano3, true); );
+
+    );
+    if (display_buttonForASinglePano3,
+      set(layer[buttonForASinglePano3].visible, true);
+    ,
+      hidebuttonForASinglePano3();
+    );
+  </action>
+
+
+
+<!-- ********** -->
+<!-- Button - Scene specific2 -->
+<!-- id : buttonForASinglePano4 -->
+<!-- ********** -->
+
+  <layer name="buttonForASinglePano4"
+         keep="true"
+         url="%FIRSTXML%/graphics/buttonforasinglepano4/par1_copy.png"
+         align="topright"
+         x="10"
+         y="70"
+         zorder="12"
+         visible="false"
+         handcursor="false"
+         enabled="false"
+         />
+
+
+
+
+  <events name="buttonForASinglePano4events"
+    onTourStart="showbuttonForASinglePano4();"
+    hidetourcontrols="hidebuttonForASinglePano4();"
+    showtourcontrols="showbuttonForASinglePano4();"
+
+    onPanoStart="showbuttonForASinglePano4();"
+
+    keep="true" />
+  <action name="hidebuttonForASinglePano4">set(layer[buttonForASinglePano4].visible, false);</action>
+  <action name="showbuttonForASinglePano4">
+    set(display_buttonForASinglePano4, false);
+    if(tour_displaycontrols,
+
+    set(currentgroup_buttonForASinglePano4, get(scene[get(xml.scene)].group));
+    if (currentgroup_buttonForASinglePano4 == panogroup10480, set(display_buttonForASinglePano4, true); );
+    set(currentgroup_buttonForASinglePano4, get(scene[get(xml.scene)].group));
+    if (currentgroup_buttonForASinglePano4 == panogroup10469, set(display_buttonForASinglePano4, true); );
+
+    );
+    if (display_buttonForASinglePano4,
+      set(layer[buttonForASinglePano4].visible, true);
+    ,
+      hidebuttonForASinglePano4();
+    );
+  </action>
+
+
+
+  <!-- Fullscreen Management -->
+  <action name="exitFullScreen" devices="fullscreensupport">set(tour_fullscreen,false);set(fullscreen,false);</action>
+  <action name="enterFullScreen" devices="fullscreensupport">set(tour_fullscreen,true);set(fullscreen,true);</action>
+  <action name="switchFullScreen">if(tour_fullscreen,exitFullScreen();,enterFullScreen(););</action>
+
+  
+  <events name="krpanoExitFullscreenEvent"
+    onexitfullscreen="if(tour_fullscreen,exitFullScreenChangeEvent(););"
+    keep="true" />
+
+  <action name="exitFullScreenChangeEvent" devices="fullscreensupport">set(tour_fullscreen,false);events.dispatch(onexitfullscreen);</action>
+
+</krpano>

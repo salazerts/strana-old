@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<krpano version="1.19-pr16">
+
+    
+  <!-- Spot Style - 1 -->
+
+
+  <style name="Icon1"
+         url="%FIRSTXML%/spots/hotspot_neutral_big_sequence_user_defaultpoint34.png"
+         visible="false"
+         frame="0"
+         lastframe="17"
+         framewidth="90"
+         frameheight="90"
+         stopspotsequence="false"
+         crop="0|0|90|90"
+         edge="center"
+         rotate="270"
+         onloaded="startspotanimation(0.1);"
+         onhover="onhoverIcon1"
+         onout="onoutIcon1"
+
+
+         />
+  <action name="onhoverIcon1">
+    showtooltip('hotspot');
+  </action>
+  <action name="onoutIcon1">
+    hideTooltip();
+
+
+
+  </action>
+
+
+
+    
+  <!-- Spot Style - холл 2 этажа -->
+
+
+  <style name="Iconхолл2этажа"
+         url="%FIRSTXML%/spots/xol2_user_defaultpoint44.png"
+         visible="false"
+         edge="bottom" ox="0" oy="0"
+         onhover="onhoverIconхолл2этажа"
+         onover="onoverIconхолл2этажа"
+         onout="onoutIconхолл2этажа"
+
+
+         />
+  <action name="onhoverIconхолл2этажа">
+    showtooltip('hotspot');
+  </action>
+  <action name="onoverIconхолл2этажа">
+tween(scale, 1.2);
+
+
+  </action>
+  <action name="onoutIconхолл2этажа">
+    hideTooltip();
+    tween(scale, 1);
+
+
+  </action>
+
+
+
+    
+  <!-- Spot Style - квартира -->
+
+
+  <style name="Iconквартира"
+         url="%FIRSTXML%/spots/kvartira_user_defaultpoint45.png"
+         visible="false"
+         edge="bottom" ox="0" oy="0"
+         onhover="onhoverIconквартира"
+         onover="onoverIconквартира"
+         onout="onoutIconквартира"
+
+
+         />
+  <action name="onhoverIconквартира">
+    showtooltip('hotspot');
+  </action>
+  <action name="onoverIconквартира">
+tween(scale, 1.2);
+
+
+  </action>
+  <action name="onoutIconквартира">
+    hideTooltip();
+    tween(scale, 1);
+
+
+  </action>
+
+
+
+    
+  <!-- Spot Style - par1 -->
+
+
+  <style name="Iconpar1"
+         url="%FIRSTXML%/spots/dvorpar1_user_defaultpoint47.png"
+         visible="false"
+         edge="bottom" ox="0" oy="0"
+         onhover="onhoverIconpar1"
+         onover="onoverIconpar1"
+         onout="onoutIconpar1"
+
+
+         />
+  <action name="onhoverIconpar1">
+    showtooltip('hotspot');
+  </action>
+  <action name="onoverIconpar1">
+tween(scale, 1.2);
+
+
+  </action>
+  <action name="onoutIconpar1">
+    hideTooltip();
+    tween(scale, 1);
+
+
+  </action>
+
+
+
+    
+  <!-- Spot Style - par2 -->
+
+
+  <style name="Iconpar2"
+         url="%FIRSTXML%/spots/dvorpar2_user_defaultpoint48.png"
+         visible="false"
+         edge="bottom" ox="0" oy="0"
+         onhover="onhoverIconpar2"
+         onover="onoverIconpar2"
+         onout="onoutIconpar2"
+
+
+         />
+  <action name="onhoverIconpar2">
+    showtooltip('hotspot');
+  </action>
+  <action name="onoverIconpar2">
+tween(scale, 1.2);
+
+
+  </action>
+  <action name="onoutIconpar2">
+    hideTooltip();
+    tween(scale, 1);
+
+
+  </action>
+
+
+
+    
+  <!-- Spot Style - par3 -->
+
+
+  <style name="Iconpar3"
+         url="%FIRSTXML%/spots/dvorpar3_user_defaultpoint49.png"
+         visible="false"
+         edge="bottom" ox="0" oy="0"
+         onhover="onhoverIconpar3"
+         onover="onoverIconpar3"
+         onout="onoutIconpar3"
+
+
+         />
+  <action name="onhoverIconpar3">
+    showtooltip('hotspot');
+  </action>
+  <action name="onoverIconpar3">
+tween(scale, 1.2);
+
+
+  </action>
+  <action name="onoutIconpar3">
+    hideTooltip();
+    tween(scale, 1);
+
+
+  </action>
+
+
+
+    
+  <!-- Spot Style - par4 -->
+
+
+  <style name="Iconpar4"
+         url="%FIRSTXML%/spots/dvorpar4_user_defaultpoint50.png"
+         visible="false"
+         edge="bottom" ox="0" oy="0"
+         onhover="onhoverIconpar4"
+         onover="onoverIconpar4"
+         onout="onoutIconpar4"
+
+
+         />
+  <action name="onhoverIconpar4">
+    showtooltip('hotspot');
+  </action>
+  <action name="onoverIconpar4">
+tween(scale, 1.2);
+
+
+  </action>
+  <action name="onoutIconpar4">
+    hideTooltip();
+    tween(scale, 1);
+
+
+  </action>
+
+
+
+    
+  <!-- Spot Style - холл 1 этажа -->
+
+
+  <style name="Iconхолл1этажа"
+         url="%FIRSTXML%/spots/xol1_user_defaultpoint51.png"
+         visible="false"
+         edge="bottom" ox="0" oy="0"
+         onhover="onhoverIconхолл1этажа"
+         onover="onoverIconхолл1этажа"
+         onout="onoutIconхолл1этажа"
+
+
+         />
+  <action name="onhoverIconхолл1этажа">
+    showtooltip('hotspot');
+  </action>
+  <action name="onoverIconхолл1этажа">
+tween(scale, 1.2);
+
+
+  </action>
+  <action name="onoutIconхолл1этажа">
+    hideTooltip();
+    tween(scale, 1);
+
+
+  </action>
+
+
+
+  <!-- Fullscreen Management -->
+  <action name="exitFullScreen" devices="fullscreensupport">set(tour_fullscreen,false);set(fullscreen,false);</action>
+  <action name="enterFullScreen" devices="fullscreensupport">set(tour_fullscreen,true);set(fullscreen,true);</action>
+  <action name="switchFullScreen">if(tour_fullscreen,exitFullScreen();,enterFullScreen(););</action>
+
+  
+  <events name="krpanoExitFullscreenEvent"
+    onexitfullscreen="if(tour_fullscreen,exitFullScreenChangeEvent(););"
+    keep="true" />
+
+  <action name="exitFullScreenChangeEvent" devices="fullscreensupport">set(tour_fullscreen,false);events.dispatch(onexitfullscreen);</action>
+
+</krpano>
